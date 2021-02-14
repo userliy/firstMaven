@@ -1,0 +1,21 @@
+
+	git init 初始化本地仓库
+
+	git remote add origin https://github.com/userliy/firstMaven.git 本地仓库关联远端仓库
+	
+		fatal: remote origin already exists. 出现报错
+
+		git remote remove origin  移除绑定
+
+		git remote add origin https://github.com/userliy/firstMaven.git 继续关联
+
+		$ git remote -v 查看远端仓库情况
+		origin  https://github.com/userliy/firstMaven.git (fetch)
+		origin  https://github.com/userliy/firstMaven.git (push)
+
+	git add .  .表示当前目录 提交当前目录的所有内容
+
+	git commit -m "说明信息" 提交
+
+	
+	
